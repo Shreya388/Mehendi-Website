@@ -2031,7 +2031,7 @@ header .main-menu-tab .menu-buttons li .btn2:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background: url(images/slider/1.jpg);
+  background: url(images/slider/1.webp);
   position: relative;
 }
 
@@ -2044,7 +2044,7 @@ header .main-menu-tab .menu-buttons li .btn2:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background: url(images/slider/2.jpg);
+  background: url(images/slider/2.webp);
   position: relative;
 }
 
@@ -2057,7 +2057,7 @@ header .main-menu-tab .menu-buttons li .btn2:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background: url(images/slider/3.jpg);
+  background: url(images/slider/3.webp);
   position: relative;
 }
 
