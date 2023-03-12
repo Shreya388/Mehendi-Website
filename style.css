@@ -3202,16 +3202,20 @@ footer .footer-top .instagram ul li:hover i {
 }
 
 .categories-tag {
-  background: black;
-  width: 300px;
-  padding: 14px 27px;
-  color: white;
-  border-radius: 0px 35px 35px 0px;
+  color: rgb(28, 28, 28);
   font-size: 20px;
-  margin-top: 40px;
-  margin-bottom: -30px;
 }
 
+.category-list h5{
+  color: rgb(65, 65, 65) !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.category-list p{
+  color: rgb(103, 103, 103) !important;
+  font-size: 16;
+}
 
 
 
@@ -4662,7 +4666,7 @@ select option {
 #cssmenu ul li:hover a, #cssmenu ul li.active a {
   background: transparent !important;
   border-bottom: 1px solid #d3d3d3;
-  color: #ffffff;
+  color: black;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -4696,4 +4700,22 @@ ul ul>li.has-sub>a:before {
   padding-bottom: 15px;
   background: #f9f9f9;
   position: relative;
+}
+
+.logo{
+  height: 200px !important;
+  width: 200px !important;
+}
+
+
+
+@media screen and (max-width: 600px) {
+ h2 {
+    font-size: 30px !important;
+  }
+
+  .logo{
+    height:103px !important;
+    width: 100px !important;
+  }
 }
