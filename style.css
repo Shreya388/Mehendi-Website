@@ -3173,12 +3173,14 @@ footer .footer-top .instagram ul li:hover i {
   width: 100%;
   border: 10px solid #f2f2f2;
   transition: all 0.3s;
+  height: 430px;
+  background-size: cover !important;
 }
 
 .services-area .service-list figure a {
   position: absolute;
-  left: 30px;
-  right: 30px;
+  left: -1px;
+  right: 0px;
   bottom: 0;
   background: #fff;
   height: 60px;
@@ -4705,9 +4707,38 @@ ul ul>li.has-sub>a:before {
 .logo{
   height: 200px !important;
   width: 200px !important;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.logo-div{
+  background: white;
+  border-radius: 100px;
+  height:120px;
+  width:120px;
+}
+
+.logo-img{
+  padding: 5px;
+  margin-top: 7px;
 }
 
 
+.service-text{
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: #333;
+}
+
+.studio-small{
+  height: 670px !important;
+  max-height: 100px;
+}
+
+.studio-big{
+  height: 600px !important;
+  background-size: cover !important;
+}
 
 @media screen and (max-width: 600px) {
  h2 {
@@ -4715,7 +4746,7 @@ ul ul>li.has-sub>a:before {
   }
 
   .logo{
-    height:103px !important;
+    height:70px !important;
     width: 100px !important;
   }
 }
