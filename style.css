@@ -3623,7 +3623,6 @@ footer .footer-top .instagram ul li:hover i {
   padding: 20px 10px;
   margin: auto;
   display: flex;
-  width: 100%;
 }
 
 /*....................................
@@ -4730,46 +4729,33 @@ ul ul>li.has-sub>a:before {
   color: #333;
 }
 
-.studio-small{
-  height: 670px !important;
-  max-height: 100px;
+
+.logo-link{
+  border-radius: 50% !important;
+  box-shadow: none !important;
+  height:70px !important;
+    width: 100px !important;
+
 }
 
 .studio-big{
-  height: 600px !important;
   background-size: cover !important;
+  filter: brightness(0.9);
 }
 
-.service-img{
-  height: auto;
-    width: auto;
-    max-width: 414px;
-    max-height: 385px;
-}
-.gallery-img{
-    height: auto;
-    width: auto;
-    max-width: 414px;
-    max-height: 385px;
-}
 
 .gallerypage-img{
-    height: auto;
-    width: auto;
-    max-width: 424px;
-    max-height: 385px;
+    filter: brightness(0.9);
 }
 
 .products-img{
-    height: auto;
-    width: auto;
-    max-width: 424px;
-    max-height: 405px;
+  filter: brightness(0.7) !important;
 }
 
 @media screen and (max-width: 600px) {
  h2 {
     font-size: 30px !important;
+    
   }
 
   .logo{
