@@ -4284,6 +4284,10 @@ ul ul>li.has-sub>a:before {
   filter: brightness(0.7) !important;
 }
 
+.about-area p{
+  text-align: justify;
+}
+
 @media screen and (max-width: 600px) {
  h2 {
     font-size: 30px !important;
